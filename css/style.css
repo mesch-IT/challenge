@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "Fira";
+	src: url("../fonts/FiraSans-Regular.ttf") format("truetype"),
+		url("../fonts/FiraSans-Medium.ttf") format("truetype"),
+		url("../fonts/FiraSans-Light.ttf") format("truetype"),
+		url("../fonts/FiraSans-BoldItalic.ttf") format("truetype");
+}
+
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("/image/bible.jpg")  center / cover no-repeat fixed;
+    height: 110vh;
+    font-family: 'Fira';
+}
+/* top bar section */
+.img-search {
+    height: 20px;
+    
+}
+.img-bag {
+    height: 20px;
+    
+}
+.img-nav {
+    height: 20px;
+}
+.top-bar h1 {
+    color: white;
+    margin-left: 150px;
+    
+}
+.navbar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover {
+    color: mediumvioletred;
+}
+.navbar {
+position: absolute;
+right: 200px;
+bottom: 610px;
+
+}
+
+/* end of top bar section */
+
+/* title section */
+
+.title h1 {
+    color: white;
+    margin-left: 150px;
+    font-size: 50px;
+}
+.title {
+    margin-top: 200px;
+    line-height: 70px;
+    
+     
+}
+/* end of title of section */
+
+/* main section  */
+.main1 ,.main2 {
+    color: white;
+    padding: 20px;
+}
+.main {
+    display: flex;
+    margin-left: 150px;
+    
+}
+.main1 {
+   background-color: brown; 
+   height: 30px;
+   width: 130px;
+   margin-bottom: 5px;
+   text-align: center;
+   padding-top: 5px;
+
+}
+.main2 {
+    border-style:  ridge;
+    border-color: white;
+    height: 30px;
+   width: 200px;
+   margin-bottom: 5px;
+   text-align: center;
+   padding-top: 5px;
+   margin-left: 5px;
+   
+}
+.main2  {
+    font-size: 10px;
+   
+}
+   
+/* end of main section */
+
+/* mediaquery */
+
+@media (max-width: 770px) {
+.navbar {
+    display: none;
+    
+}
+.main {
+    display: inline-flex;
+    
+}
+.main2 {
+    
+}
+	}
+/* end of mediaquery */
